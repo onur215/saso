@@ -43,7 +43,7 @@ header ul li a:hover {
 }
 
 .banner {
-  background-color: #0056B3;
+  background-color: #0056b3;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,6 +69,78 @@ header ul li a:hover {
   width: 30%;
   max-width: 400px;
   min-width: 250px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   mixins                                   */
+/* -------------------------------------------------------------------------- */
+.cards {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.cards .card1 {
+  background-color: blue;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card2 {
+  background-color: yellow;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card3 {
+  background-color: purple;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card4 {
+  background-color: olive;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+.articles .article1, .articles .article2 {
+  background-color: #343a40;
+  width: 50%;
+  height: 10rem;
+  color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+footer p {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
