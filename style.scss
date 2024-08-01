@@ -81,6 +81,11 @@ header{
         margin-left: 0.5rem;
         color: $lightColor;
         font-weight: bold;
+        &:hover{
+            background-color: darken($buttonBgColor, 10%);
+            cursor: pointer;
+            transform: scale(0.97);
+        }
     }
    }
 

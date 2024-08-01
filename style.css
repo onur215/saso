@@ -60,6 +60,11 @@ header ul li a:hover {
   color: #f8f9fa;
   font-weight: bold;
 }
+.banner aside button:hover {
+  background-color: #1e7e34;
+  cursor: pointer;
+  transform: scale(0.97);
+}
 .banner img {
   width: 30%;
   max-width: 400px;
