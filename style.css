@@ -51,6 +51,15 @@ header ul li a:hover {
   color: white;
   line-height: 1.5;
 }
+.banner aside button {
+  background-color: #28a745;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  color: #f8f9fa;
+  font-weight: bold;
+}
 .banner img {
   width: 30%;
   max-width: 400px;
