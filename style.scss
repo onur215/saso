@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+//***** VARİABLES ******
+
 $bg-color:#bb66ff;
 $font-family:Arial, Helvetica, sans-serif;
 $font-size:1.2rem;
 $font-color:#333;
 $nav-bg-color:#007bff;
 $my-border:2px solid #ddd;
+$bannerBgColor:#0056B3;
 
 body{
     background-color: $bg-color;
@@ -53,4 +56,22 @@ header{
             }
         }
     }
+}
+
+// ***** Banner *****
+
+.banner{
+   background-color: $bannerBgColor;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2rem;
+   color: white;
+   line-height: 1.5;
+
+   img{
+    width: 30%;
+    max-width: 400px;
+    min-width: 250px;
+   }
 }
