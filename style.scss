@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$bg-color:#bb66ff;
+$font-family:Arial, Helvetica, sans-serif;
+$font-size:1.2rem;
+$font-color:#333;
+$nav-bg-color:#007bff;
+$my-border:2px solid #ddd;
+
+body{
+    background-color: $bg-color;
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $font-color;
+}
+
+// ***** Header *****
+
+header{
+    background-color: $nav-bg-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    img{
+        width: 80px;
+        border: $my-border;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    ul{
+        list-style-type: none;
+
+        li{
+            display: inline-block;
+            padding: 0.5rem;
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
